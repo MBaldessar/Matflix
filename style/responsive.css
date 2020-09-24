@@ -1,0 +1,20 @@
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav a {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .botao {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao {
+        width: 50%;
+    }
+}
